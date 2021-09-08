@@ -29,9 +29,7 @@ class SplashActivity : AppCompatActivity(), View.OnClickListener {
 
     private fun handleSave() {
         val name = findViewById<EditText>(R.id.editName).text.toString()
-        if(name != ""){
-            startActivity(Intent(this, MainActivity::class.java))
-        }else{
+        if(name != "") startActivity(Intent(this, MainActivity::class.java)) else{
             Toast.makeText(this, "Informe seu nome!", Toast.LENGTH_SHORT).show()
         }
     }

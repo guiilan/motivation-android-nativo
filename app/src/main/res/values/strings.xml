@@ -3,4 +3,5 @@
     <string name="msg_inicial">Vamos Começar?</string>
     <string name="insert_name">Qual seu nome?</string>
     <string name="salvar">Salvar</string>
+    <string name="nova_frase">Nova Frase</string>
 </resources>
